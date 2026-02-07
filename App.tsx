@@ -1,4 +1,5 @@
 import React, { useState, useCallback } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { GardenCanvas } from './components/GardenCanvas';
 import { AuroraBackground } from './components/AuroraBackground';
 import { LandingPage } from './components/LandingPage';
@@ -39,6 +40,9 @@ export default function App() {
 
       {/* Main UI Overlay (Top bar, socials, etc.) */}
       <GardenUI started={started} onReset={handleReset} />
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
