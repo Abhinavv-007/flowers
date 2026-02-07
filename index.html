@@ -1,33 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grow Flowers</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
-    <style>
-      body {
-        margin: 0;
-        background-color: #0f0505; /* Deep dark rose/black background */
-        overflow: hidden;
-      }
-      .font-script {
-        font-family: 'Great Vibes', cursive;
-      }
-      .font-serif {
-        font-family: 'Playfair Display', serif;
-      }
-      .font-sans {
-        font-family: 'Quicksand', sans-serif;
-      }
-      /* Custom scrollbar hide */
-      ::-webkit-scrollbar {
-        display: none;
-      }
-    </style>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grow Flowers</title>
+  <!-- Social Media Preview -->
+  <meta property="og:title" content="Grow Flowers" />
+  <meta property="og:description" content="A Garden of Eternal Blooms - Interactive Flower Experiment" />
+  <meta property="og:image" content="/image.png" />
+  <meta property="og:url" content="https://flowers.abhnv.in" /> <!-- Assuming a URL or generic placeholder -->
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Grow Flowers" />
+  <meta name="twitter:description" content="A Garden of Eternal Blooms - Interactive Flower Experiment" />
+  <meta name="twitter:image" content="/image.png" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background-color: #0f0505;
+      /* Deep dark rose/black background */
+      overflow: hidden;
+    }
+
+    .font-script {
+      font-family: 'Great Vibes', cursive;
+    }
+
+    .font-serif {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .font-sans {
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    /* Custom scrollbar hide */
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
   <script type="importmap">
 {
   "imports": {
@@ -40,10 +59,12 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/index.css">
 </head>
-  <body>
-    <div id="root"></div>
+
+<body>
+  <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 </body>
+
 </html>
